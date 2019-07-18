@@ -7,7 +7,7 @@
 
         <div class="col-5">
               <div class="float-right">
-              <p>PassManager </p>
+              <h3>Hi! {{ Auth::user()->name }} </h3>
               <p> Admin Dashboard Area V 0.5</p>
            </div>
        </div>
@@ -31,7 +31,7 @@
        <div class="col-4">
 
                <div class="card bg-dark text-center">
-                   <div class="card-header "> <h1> Server Clock</h1></div>
+                   <div class="card-header "> <h1>  </h1></div>
                    <div class="card-body "> <i class="fas fa-clock"></i>  </div>
                    <div class="card-footer">Footer</div>
                </div>

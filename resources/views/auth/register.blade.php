@@ -35,8 +35,8 @@
 <!----------------- Login From -------------->
 <div class="col-4 text-dark mt-5">
 
-        <div class="card text-dark">
-                <div class="card-header"><i class="far fa-registered"></i> {{ __('Register') }}  <span class="badge badge-dark float-right"> <a href="{{url('/login')}}" class="text-white"> <i class="fas fa-sign-in-alt"></i> Login  </a> </span> </div>
+        <div class="card  ">
+                <div class="card-header  bg-dark text-white"><i class="far fa-registered"></i> {{ __('Register') }}  <span class="badge badge-white float-right"> <a href="{{url('/login')}}" class="text-white"> <i class="fas fa-sign-in-alt"></i> Login  </a> </span> </div>
 
 
 

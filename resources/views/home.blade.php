@@ -2,9 +2,7 @@
 
 @section('content')
 
-<?php
-use Carbon\Carbon;
-?>
+
 
 <div class="col-10 ">
 

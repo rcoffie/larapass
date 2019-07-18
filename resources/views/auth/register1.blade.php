@@ -75,3 +75,15 @@
     </div>
 </div>
 @endsection
+
+
+
+
+<div class="col-6">
+
+
+
+
+
+
+</div>

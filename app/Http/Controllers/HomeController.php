@@ -7,6 +7,7 @@ use App\Account;
 use Carbon\Carbon;
 use Auth;
 
+
 class HomeController extends Controller
 {
     /**
@@ -28,7 +29,6 @@ class HomeController extends Controller
     {
 
 
-      $serverclock = Carbon::now();
 
         $accounts = Account::whereUserId(auth()->user()->id)->get();
         return view('home')->with('accounts',$accounts);
